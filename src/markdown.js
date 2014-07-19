@@ -1,5 +1,5 @@
 define([
-    "node_modules/marked/marked.min"
+    "node_modules/marked/lib/marked"
 ], function(marked) {
     console.log(marked);
 
