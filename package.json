@@ -1,0 +1,11 @@
+{
+    "name": "markdown",
+    "version": "1.0.0",
+    "description": "Markdown previewer",
+    "engines": {
+        "codebox": ">=1.0.0"
+    },
+    "dependencies": {
+        "marked": "0.3.2"
+    }
+}

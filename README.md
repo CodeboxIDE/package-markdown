@@ -1,4 +1,3 @@
-package-markdown
-================
+# Markdown preview
 
-Markdown previewer
+This package contains a markdown previewer for Codebox.
