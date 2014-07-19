@@ -8,5 +8,8 @@
     },
     "dependencies": {
         "marked": "0.3.2"
+    },
+    "packageDependencies": {
+        "editor": "CodeboxIDE/package-editor"
     }
 }
