@@ -9,7 +9,14 @@ define([
         title: "Markdown: Preview",
         context: ["editor"],
         run: function(args, context) {
-
+            return codebox.tabs.add(codebox.tabs.HtmlPanel, {
+                className: "component-markdown-preview",
+                content: markdown.render(context.getContent())
+            }, {
+                type: "markdown",
+                title: "Markdown: " + context.model.get("name"),
+                section: "markdown"
+            });
         }
     });
 });
