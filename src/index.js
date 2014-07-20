@@ -1,5 +1,6 @@
 define([
-    "src/markdown"
+    "src/markdown",
+    "less!src/stylesheets/main.less"
 ], function(markdown) {
     var commands = codebox.require("core/commands");
     var dialogs = codebox.require("utils/dialogs");
