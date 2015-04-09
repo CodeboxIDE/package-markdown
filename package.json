@@ -2,7 +2,7 @@
     "name": "markdown",
     "version": "1.0.0",
     "description": "Markdown previewer",
-    "main": "src/index",
+    "browser": "./src/index.js",
     "engines": {
         "codebox": ">=1.0.0"
     },
