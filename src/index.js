@@ -8,13 +8,13 @@ commands.register({
     id: "markdown.preview",
     title: "Markdown: Preview",
     context: ["editor"],
-    run: function(args, context) {
+    run: function(args, ctx) {
         return codebox.tabs.add(codebox.tabs.HtmlPanel, {
             className: "component-markdown-preview",
-            content: marked(context.getContent())
+            content: marked(ctx.editor.getContent())
         }, {
             type: "markdown",
-            title: "Markdown: " + context.model.get("name"),
+            title: "Markdown: " + ctx.editor.model.get("name"),
             section: "markdown"
         });
     }
